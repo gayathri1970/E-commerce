@@ -96,7 +96,7 @@ nav ul li{
 }
 
 .small-container{
-    max-width: 1080px;
+    /* max-width: 1080px; */
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -224,6 +224,122 @@ small{
 .col-5 img:hover{
     filter: grayscale(0);
 }
+/* cantact section */
+/* Contact Section */
+.contact-container {
+  background: #f9f9f9;
+  padding: 60px 0;
+  margin-top: 50px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #333;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff523b;
+}
+
+.contact-form button {
+  background: #ff523b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #e14a2d;
+}
+
+/* Contact Info */
+.contact-info {
+  padding: 20px;
+}
+
+.contact-info h3 {
+  margin-bottom: 20px;
+  color: #ff523b;
+}
+
+.contact-info p {
+  font-size: 15px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #ff523b;
+}
+/* Wishlist Page */
+.wishlist-page {
+  margin: 50px auto;
+}
+
+.wishlist-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wishlist-page th {
+  text-align: left;
+  padding: 10px;
+  background: #ff523b;
+  color: #fff;
+}
+
+.wishlist-page td {
+  padding: 10px 5px;
+}
+
+.wishlist-info {
+  display: flex;
+  align-items: center;
+}
+
+.wishlist-info img {
+  width: 80px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.wishlist-info p {
+  margin: 0;
+  font-weight: 500;
+}
+
 /*---------footer-------*/
 
 .footer{

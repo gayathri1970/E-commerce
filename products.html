@@ -19,10 +19,12 @@
                    <li><a href="index.html">Home</a></li>
                    <li><a href="products.html">Products</a></li>
                    <li><a href="#footer">About</a></li>
-                   <li><a href="#footer">Contact</a></li>
+                   <li><a href="#contact">Contact</a></li>
                    <li><a href="account.html">Account</a></li>
                </ul>
               </nav>
+               <a href="./wishList.html"><img src="./images/like.png" width="30px" height="30px" style="margin-right: 18px;"></a>
+              
               <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
               <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
           </div>
@@ -204,7 +206,38 @@
               <span>&#8594;</span>
           </div>
 </div>
-    
+    <!-- contact section -->
+          <div id="contact" class="contact-container">
+   <div class="small-container">
+      <h2 class="title">Get in Touch</h2>
+      <div class="row">
+         
+         <!-- Contact Form -->
+         <div class="col-2">
+            <form class="contact-form">
+               <label for="name">Your Name</label>
+               <input type="text" id="name" placeholder="Enter your name" required>
+
+               <label for="email">Your Email</label>
+               <input type="email" id="email" placeholder="Enter your email" required>
+
+               <label for="message">Message</label>
+               <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+
+               <button type="submit" class="btn">Send Message</button>
+            </form>
+         </div>
+
+         <!-- Contact Info -->
+         <div class="col-2 contact-info">
+            <h3>Contact Information</h3>
+            <p><i class="fa fa-envelope"></i> support@redstore.com</p>
+            <p><i class="fa fa-phone"></i> +91 98765 43210</p>
+            <p><i class="fa fa-map-marker"></i> 123 Main Street, Chennai, India</p>
+         </div>
+      </div>
+   </div>
+</div>
 <!----------Footer---------------> 
 
 <div id="footer" class="footer">
